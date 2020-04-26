@@ -1,5 +1,25 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Weather App
+
+> This is a React weather app, displaying data from [openweathermap](https://openweathermap.org/) with current and forecast weather in London for the next week. This app shows a countdown bar of 1 minute and auto refresh the weather information. 
+
+![weatherApp](https://user-images.githubusercontent.com/46029164/80312455-39796280-87dd-11ea-895f-0861994af975.gif)
+
+## Functionalities
+
+This weather app has fetched the following data 
+- **Weather**
+- **Weather description** 
+- **Weather Icon** 
+- **Current Time** 
+- **Day of the week** 
+
+The top countdown bar has set for 60s and the it'll refresh the weather information.
+
+## Improvement
+On going with more time, the layout/UI of the applications can be improved as well as automation when initially loading the data and fetching the data.
+
 ## Available Scripts
 
 In the project directory, you can run:
