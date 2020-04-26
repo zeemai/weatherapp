@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Weather App
+
+> This is a React weather app, displaying data from OpenWeatherApi
+
+> include terms/tags that can be searched
+
 ## Available Scripts
 
 In the project directory, you can run:
