@@ -9,7 +9,6 @@ export default class TopPart extends React.Component{
         this.state = {} ;
     }
 
-
     render() {
         return <div className="top-container">
             <Timer />
