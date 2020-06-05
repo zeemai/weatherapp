@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![weatherApp](https://user-images.githubusercontent.com/46029164/80312455-39796280-87dd-11ea-895f-0861994af975.gif)
 
+## [Live site](https://weatherapp-zee.netlify.app/)
+- **Updated Css**
+
 ## Functionalities
 
 This weather app has fetched the following data: 
