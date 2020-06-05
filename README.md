@@ -2,13 +2,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Weather App
 
-> This is a React weather app, displaying data from [openweathermap](https://openweathermap.org/) with current and forecast weather in London for the next week. This app shows a countdown bar of 1 minute and auto refresh the weather information. 
+> This is a React weather app, displaying data from [openweathermap](https://openweathermap.org/) with current and forecast weather in London for the next week. This app displays weather as soon as it opens and it shows a countdown bar of 60s and then auto refresh the weather information every minute.
 
 ![weatherApp](https://user-images.githubusercontent.com/46029164/80312455-39796280-87dd-11ea-895f-0861994af975.gif)
 
 ## Functionalities
 
-This weather app has fetched the following data 
+This weather app has fetched the following data: 
 - **Weather**
 - **Weather description** 
 - **Weather Icon** 
@@ -18,7 +18,13 @@ This weather app has fetched the following data
 The top countdown bar has set for 60s and the it'll refresh the weather information.
 
 ## Improvement
-On going with more time, the layout/UI of the applications can be improved as well as automation when initially loading the data and fetching the data.
+On going with more time, things could be improved:
+- **Layout/UI of the applications**
+- **Switch between celsius and fahrenheit**
+- **automation when initially loading the data and fetching the data**
+- **Count down more smooth maybe with number**
+- **Jest Unit testing to validate and ensure the app is performing as expected**
+
 
 ## Available Scripts
 
