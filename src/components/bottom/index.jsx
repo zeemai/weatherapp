@@ -2,18 +2,17 @@ import React from "react";
 import "./style.scss";
 import Forecast from "./forecast";
 
-export default class BottomPart extends React.Component{
-    constructor(props){
-        super(props);
-        this.state = {} ;
-    }
+const BottomPart = (props) => {
 
-    render() {
-        const {forecasedays} = this.props;
-        return <div className="bottom-container">
-            {forecasedays && forecasedays.map((day, i) =>{
+    const { forecasedays } = props;
+
+    return (
+        <div className="bottom-container">
+            {forecasedays && forecasedays.map((day, i) => {
                 return <Forecast day={day} key={i} />
             })}
         </div>
-    }
+    );
 }
+
+export default BottomPart;
